@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Sansita+Swashed&display=swap');
+
+body{
+    font-family: 'Mukta', sans-serif; 
+    color: #202b3a;
+}
+
+h1{
+    font-family: 'Sansita Swashed', cursive; 
+}
+
+nav{
+   
+}
+
+.nav-item:hover{
+    box-shadow: 0px 1px 0 0px #e83a0d inset, 0px -1px 0 0px #e83a0d inset;
+}
+
+form{
+    text-align: left;
+    width: 60%;
+    min-width: 100%;
+    margin: 0 auto;
+}
+
+i{
+    width: 80px;
+}
+
+footer{
+    text-align: center;
+}
+
+.contact-page-logo{
+    height: 110px;
+    width: 110px;
+}
+
+.contact-first-img{
+    height: 120%;
+    width: 100%;
+}
+
+.right-form-container{
+    text-align: center;
+    padding: 5%;
+}
+
+.left-img-div{
+    padding: 2%;
+}
+
+.right-img-div{
+    padding: 2%;
+}
+
+.h4{
+    font-weight: 100;
+}
+
+.left-social-btn-container{
+    text-align: center;
+}
+
+.address-container{
+    text-align: center;
+}
+
+.map-container{
+  
+}
+
+.gmap_canvas{
+    height: 300px;
+    width: 100%;
+    padding: 2%;
+}
+
+.social_icon_group{
+    font-size: 50px;
+}
+
+.contact-second-img{
+   width: 100%;
+}
+
+.address{
+    padding-left: 13%;
+    text-align: left;
+}
+
+.lead{
+    text-decoration: underline;
+}
+
+.fa-facebook-square:hover{
+    color: #3b5998;
+}
+
+.fa-instagram:hover{
+    color: #3f729b;
+}
+
+.fa-twitter-square:hover{
+    color: #00acee;
+}
+
+.fa-linkedin:hover{
+    color: #0e76a8;
+}
+
+.fa-youtube-square:hover{
+    color: #e62117;
+}
+
+.con-two{
+    margin-top: 2%;
+}
+
+.con-three{
+    margin-top: 3%;
+}
+
+.btn:hover{
+    border-bottom-color: #e83a0d;
+    border-top-color: #e83a0d;
+    background-color: rgb(248, 249, 250);
+ }
+
+.social_icons:link {
+    color: #202b3a;
+  }
+
+.social_icons:visited {
+    color: #202b3a;
+  }
+
+.social_icons:hover {
+    color: none;
+  }
+
+.social_icons:active {
+    color: #202b3a;
+  }
