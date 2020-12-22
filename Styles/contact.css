@@ -1,3 +1,5 @@
+/* Motasim Foad worked on this page */
+
 @import url('https://fonts.googleapis.com/css2?family=Mukta&family=Sansita+Swashed&display=swap');
 
 body{
@@ -6,11 +8,11 @@ body{
 }
 
 h1{
-    font-family: 'Sansita Swashed', cursive; 
+    font-family: 'Sansita Swashed', cursive !important; 
 }
 
-nav{
-   
+nav a{
+   color: rgb(0, 123, 255);
 }
 
 .nav-item:hover{
@@ -24,13 +26,13 @@ form{
     margin: 0 auto;
 }
 
-i{
+.fab{
     width: 80px;
 }
 
-footer{
+/* footer{
     text-align: center;
-}
+} */
 
 .contact-page-logo{
     height: 110px;
@@ -75,6 +77,7 @@ footer{
     height: 300px;
     width: 100%;
     padding: 2%;
+    border: none;
 }
 
 .social_icon_group{
@@ -122,6 +125,11 @@ footer{
     margin-top: 3%;
 }
 
+.btn{
+    background-color: #e83a0d;
+    color: #fff;
+}
+
 .btn:hover{
     border-bottom-color: #e83a0d;
     border-top-color: #e83a0d;
@@ -143,3 +151,4 @@ footer{
 .social_icons:active {
     color: #202b3a;
   }
+

@@ -1,0 +1,154 @@
+/* Created by Jaskirat Kaur*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Sansita+Swashed&display=swap');
+
+body{
+    font-family: 'Mukta', sans-serif; 
+    color: #202b3a;
+}
+main
+{
+    height: 100%;
+    width: 80%s
+}
+h1{
+    font-family: 'Sansita Swashed', cursive; 
+    text-align: center;
+     margin-top: 40px;
+    margin-bottom: 40px;
+}
+.text-center img
+{
+height: 7%;
+    width: 7%;
+
+}
+
+nav{
+    margin-top: 1%;
+}
+
+.nav-item:hover{
+    box-shadow: 0px 1px 0 0px #e83a0d inset, 0px -1px 0 0px #e83a0d inset;
+}
+h3{
+    font-family: 'Mukta', cursive; 
+    text-align: center;
+    margin-top: 20px;
+
+}
+h2{
+    font-family: 'Sansita Swashed', cursive; 
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.contact-page-logo
+{
+height: 110px;
+width: 110px;;
+
+}
+
+h5, span
+{
+  font-family: 'Sansita Swashed', cursive; 
+    text-align: center;   
+}
+.photo{
+    align-content: center;
+}
+
+
+
+.nav-item:hover{
+    box-shadow: 0px 1px 0 0px #e83a0d inset, 0px -1px 0 0px #e83a0d inset;
+}
+
+ .container
+{
+    position: relative;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.max
+{
+
+    margin-left: 15%;
+    margin-bottom: auto;
+    margin-top: 3%;
+
+}
+
+
+
+
+p{
+     text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%
+}
+
+main img
+{
+   
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.col mb-4
+{
+margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+
+
+}
+
+.abc 
+{
+
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+
+.copyright{
+    background-color: rgba(0, 0, 0, 0.2)
+}
+h4{
+    padding-bottom: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.btn{
+    background-color: #e83a0d;
+
+    font-family: 'Mukta', sans-serif;
+}
+
+.btnLink{
+    color: #fff !important;
+}
+
+.btn:hover{
+    border-bottom-color: #e83a0d;
+    border-top-color: #e83a0d;
+    background-color: rgb(248, 249, 250);
+
+}
+
+.btnLink:hover{
+    color: #202b3a !important;
+    text-decoration: none !important;
+}

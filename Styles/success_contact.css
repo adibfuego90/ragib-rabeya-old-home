@@ -27,9 +27,9 @@ footer{
 }
 
 .first-img{
-    height: 50%;
-    width: 50%;
-    margin-top: 10%;
+    height: 400px;
+    width: 300px;
+    
 }
 
 .right-container{
@@ -39,6 +39,8 @@ footer{
 
 .btn{
     width: 50%;
+    background-color: #e83a0d;
+    color: #fff;
 }
 
 .btn:hover{

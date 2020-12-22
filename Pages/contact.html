@@ -1,3 +1,5 @@
+<!-- Motasim Foad worked on this page -->
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -9,6 +11,8 @@
     <link rel="icon" type="image/x-icon" href="../Assets/images/favicon/favicon.ico"/>
     <script src="https://kit.fontawesome.com/15138f295d.js" crossorigin="anonymous"></script>
     <title>NEST'EM || Contact Us</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../Styles/footer.css">
   </head>
   <body>
       <div class="text-center">
@@ -23,16 +27,16 @@
                 <a class="nav-link active" href="../index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="./services.html">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Our Stories</a>
+                <a class="nav-link" href="./storyboard.html">Our Stories</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="./donate.html">Donate</a>
                 </li>
               <li class="nav-item">
-                 <a class="nav-link" href="#">About Us</a>
+                 <a class="nav-link" href="./about.html">About Us</a>
               </li>
               <li class="nav-item">
                  <a class="nav-link" href="./contact.html">Contact</a>
@@ -44,9 +48,9 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-4 left-img-div">
-              <img src="../Assets/images/contact/connect.svg"  class="rounded contact-first-img" alt="Connecting People Image">
+              <img src="../Assets/images/contact/connect.svg"  class="rounded contact-first-img w3-center w3-animate-left" alt="Connecting People Image">
             </div>
-            <div class="col-lg-8 right-form-container">
+            <div class="col-lg-8 right-form-container w3-center w3-animate-right">
               <h1>Contact Us!</h1>
               <p class="lead">Contacting us has never been easier</p>
               <form action="../Pages/Response/success_contact.html" class="justify-content-center">
@@ -69,7 +73,7 @@
         </div>
         <div class="container con-two">
           <div class="row">
-            <div class="col-lg-8 left-social-btn-container">
+            <div class="col-lg-8 left-social-btn-container w3-center w3-animate-right">
               <h1>Not into Email's?</h1>
               <p class="lead">We are active on social media too!!</p>
               <div class="social_icon_group">
@@ -81,14 +85,14 @@
               </div>
              </div>
             <div class="col-lg-4 right-img-div">
-              <img src="../Assets/images/contact/social2.svg"  class="rounded contact-second-img" alt="Social Media Image">
+              <img src="../Assets/images/contact/social2.svg"  class="rounded contact-second-img w3-center w3-animate-left" alt="Social Media Image">
             </div>
           </div>
         </div>
-        <div class="container con-three">
+        <div class="container con-three w3-animate-zoom">
           <div class="row">
             <div class="col-lg-7 map-container">
-              <iframe class="gmap_canvas" scrolling="no" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=conestoga%20colege+(My%20Business%20Name)&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0"></iframe>
+              <iframe class="gmap_canvas" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=conestoga%20colege+(My%20Business%20Name)&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
             </div>
             <div class="col-lg-5 address-container">
               <h1>Not a virtual person?</h1>
@@ -103,9 +107,63 @@
           </div>
         </div>
      </main>
-     <footer>
-       &copy; Copyright <a href="../index.html">Nest'em</a> 2020 
-     </footer>
+     
+     <footer class="bg-light text-center text-lg-start">
+      <div class="container p-4">
+          <div class="row">
+              <div class="col-lg-4">
+                  <h4 class="text-uppercase">Find Us</h4>
+
+                  <ul class="list-unstyled mb-0 textGroup">
+                      <li>
+                          <p><i class="fa fa-location-arrow"></i>  299 Doon Valley Dr, Kitchener,<br> ON N2G 4M4, Canada <br> </p>
+                      </li>
+                      <li>
+                          <p><i class="fa fa-phone"></i>&nbsp;<a href="tel:+420420420">+420420420</a></p>
+                      </li>
+                      <li>
+                          <p><i class="fa fa fa-envelope"></i>&nbsp;<a href="mailto:someone@example.com">hi@nestem.com</a></p>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-4 text-center">
+                  <h4 class="text-uppercase">Quick Links</h4>
+
+                  <ul class="list-unstyled">
+                      <li>
+                          <a href="../index.html" class="text-dark">Home</a>
+                      </li>
+                      <li>
+                          <a href="../Pages/services.html" class="text-dark">Services</a>
+                      </li>
+                      <li>
+                          <a href="../Pages/donate.html" class="text-dark">Donate</a>
+                      </li>
+                      <li>
+                          <a href="../Pages/about.html" class="text-dark">About Us</a>
+                      </li>
+                      <li>
+                          <a href="../Pages/contact.html" class="text-dark">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-4">
+                  <h4 class="text-uppercase">Subscribe us</h4>
+                  <form>
+                      <p><strong>Sign up for our newsletter</strong></p>
+                      <div class="form-outline mb-4">
+                          <input type="email" id="form5Example2" class="form-control" placeholder="Email address"><br>
+                          <button class="btn btn-light btnLink">Subscribe</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+      <div class="text-center p-3 copyright">
+          © 2020 Copyright:
+          <a class="text-dark" href="../index.html">Nest'em.com</a>
+      </div>
+  </footer>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

@@ -38,6 +38,8 @@ footer{
 
 .btn{
     width: 50%;
+    background-color: #e83a0d;
+    color: #fff;
 }
 
 .btn:hover{
